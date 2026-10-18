@@ -1,0 +1,10 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.test.config": {
+    "name": "OrangeHRM Chrome",
+    "testKind": "testng",
+    "workingDirectory": "${workspaceFolder}",
+    "vmArgs": ["-Dheadless=false"]
+  },
+  "java.test.defaultConfig": "OrangeHRM Chrome"
+}
